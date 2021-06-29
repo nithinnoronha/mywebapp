@@ -1,8 +1,8 @@
-FROM ubuntu:16.04
+FROM centos 
 
-RUN apt-get update && apt-get install -y python3 python3-pip
+RUN yum install -y python2
 
-RUN pip3 install flask
+RUN pip2 install flask
 
 COPY app.py /opt/
 
