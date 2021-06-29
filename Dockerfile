@@ -6,4 +6,4 @@ RUN pip install flask
 
 COPY app.py /opt/
 
-ENTRYPOING FLASK_APP=/opt/app.py falsk run --host=0.0.0.0 --port=8080
+ENTRYPOINT FLASK_APP=/opt/app.py falsk run --host=0.0.0.0 --port=8080
